@@ -1,0 +1,83 @@
+$main_color:#f33535;
+
+ .flexContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+    margin-left: 20px;
+} 
+.siteName{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+.searchBox{
+   margin-left: 30px;
+   width: 80%;
+}
+.inputSearch{
+    width: 80%;
+    height: 40px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right:none ;
+}
+.inputSearch:focus{
+    outline: 0 ;
+}
+.inputSearch::placeholder{
+    position: relative;
+    left:20px
+}
+.searchBtn{
+    height: 40px;
+    width: 60px;
+    position: relative;
+    top: 12px;
+    border: none;
+    color: white;
+    background-color:$main_color ;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition:all 0.5s;
+}
+.searchBtn:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+.phoneIcon{
+    margin-top: 15px;
+   
+}
+.call{
+    margin-top: 13px;
+    margin-left: 3px;
+}
+.callText{
+    font-size:14px;
+    color:#707070;
+}
+.callNumber{
+    font-weight: bold;
+}
+.loginBtn{
+    color: white;
+    background-color: $main_color;
+    border:none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding:5px 25px;
+    margin: 15px 40px;
+   
+    transition:all 0.5s;
+}
+.loginBtn:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.loginBtn:focus{
+    outline: 0;
+}
+

@@ -1,0 +1,19 @@
+.banner{
+ margin-top: 120px;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: nowrap;
+
+}
+ 
+.banner img{
+    width: 40%;
+    height: 60vh;
+    border-radius: 5px;
+    margin: 0 15px;
+
+}
+
+img:hover{
+    cursor: pointer;
+}

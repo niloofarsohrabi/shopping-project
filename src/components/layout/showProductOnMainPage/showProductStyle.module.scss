@@ -1,0 +1,38 @@
+.productBox{
+    text-align: center;
+    //margin-top:50px
+}
+.firstTitleProduct{
+    //font-weight: bold;
+    font-size: 30px;
+    margin-top: 80px ;
+    margin-bottom: 5px;
+    
+}
+.secondTitleProduct{
+    font-size:16px;
+    font-weight: 500;
+    color: #9d9d9d;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    
+}
+.buttons button{
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    border: 2px solid white;
+    color: #666;
+    background-color: white;
+    padding: 5px 15px;
+}
+.buttons button:hover{
+    color: #f33535;
+    border: 2px solid #f33535;
+    border-radius: 5px;
+    cursor: pointer;
+  
+}
+.buttons button:focus{
+    outline: 0;
+}
